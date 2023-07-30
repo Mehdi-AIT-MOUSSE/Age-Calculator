@@ -1,0 +1,78 @@
+body {
+    background-color: black;
+    color: white;
+    margin: 0; /* Remove default body margin */
+    padding: 0; /* Remove default body padding */
+}
+
+h2 {
+    font-size: 40px; /* Reduced font size for heading */
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 300;
+    color: aliceblue;
+    text-align: center; /* Center the heading text */
+}
+
+button {
+    background-color: seashell;
+    color: black;
+    font-size: 40px; /* Reduced font size for buttons */
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 300;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 15px; /* Reduced margin */
+    width: 70%; /* Adjust button width */
+    max-width: 400px; /* Set a maximum width for larger screens */
+    border: none; /* Remove default button border */
+    border-radius: 10px; /* Add some border radius for better appearance */
+}
+
+button:hover {
+    background-color: rgb(65, 63, 63);
+    color: seashell;
+    transform: scale(1.1);
+}
+
+button:active {
+    background-color: bisque;
+    color: rgb(24, 24, 24);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Center the container content */
+    height: 30vh; /* Set the container height to the full viewport height */
+}
+
+#writeAge {
+    font-size: 30px; /* Reduced font size for input field */
+    background-color: rgb(78, 73, 73);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    width: 70%; /* Adjust input field width */
+    max-width: 400px; /* Set a maximum width for larger screens */
+    padding: 10px; /* Add some padding for better appearance */
+    border: none; /* Remove default input field border */
+    border-radius: 10px; /* Add some border radius for better appearance */
+  
+}
+
+h1 {
+    font-size: 50px; /* Reduced font size for heading */
+    font-family: monospace;
+    font-weight: 300;
+    color: rgb(208, 231, 251);
+    text-align: center; /* Center the heading text */
+}
+.xButn{
+    display: flex;
+    justify-content: center;
+    align-items: centers;
+}
+
+
+
+
